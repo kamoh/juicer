@@ -87,7 +87,7 @@ Happy juicing!
       s.add_development_dependency(%q<fakefs>, [">= 0.2.1"])
       s.add_development_dependency(%q<jeweler>, [">= 0.2.1"])
       s.add_development_dependency(%q<redgreen>, [">= 1.2.2"])
-      s.add_runtime_dependency(%q<cmdparse>, [">= 0"])
+      s.add_runtime_dependency(%q<cmdparse>, ["= 2.0.6"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 1.5.0"])
       s.add_runtime_dependency(%q<rubyzip>, ["= 0.9.9"])
     else
@@ -105,7 +105,7 @@ Happy juicing!
       s.add_dependency(%q<fakefs>, [">= 0.2.1"])
       s.add_dependency(%q<jeweler>, [">= 0.2.1"])
       s.add_dependency(%q<redgreen>, [">= 1.2.2"])
-      s.add_dependency(%q<cmdparse>, [">= 0"])
+      s.add_dependency(%q<cmdparse>, ["= 2.0.6"])
       s.add_dependency(%q<nokogiri>, [">= 1.5.0"])
       s.add_dependency(%q<rubyzip>, ["= 0.9.9"])
     end
@@ -124,7 +124,7 @@ Happy juicing!
     s.add_dependency(%q<fakefs>, [">= 0.2.1"])
     s.add_dependency(%q<jeweler>, [">= 0.2.1"])
     s.add_dependency(%q<redgreen>, [">= 1.2.2"])
-    s.add_dependency(%q<cmdparse>, [">= 0"])
+    s.add_dependency(%q<cmdparse>, [">= 2.0.6"])
     s.add_dependency(%q<nokogiri>, [">= 1.5.0"])
     s.add_dependency(%q<rubyzip>, ["= 0.9.9"])
   end
